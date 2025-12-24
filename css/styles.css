@@ -61,11 +61,11 @@ header nav {
 }
 
 header nav ul {
-    width: 20%;
-    justify-content: space-between;
-    padding: 2%;
+    justify-content: center;
+    padding: 30px 100px;
     border: 2px solid #D9D9D9;
     border-radius: 50px;
+    gap: 20%;
 }
 
 header nav ul li {

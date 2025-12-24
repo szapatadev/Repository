@@ -46,7 +46,7 @@ body {
     width: 50px;
 }
 
-.hide {
+.hide, .hide-html {
     display: none;
 }
 

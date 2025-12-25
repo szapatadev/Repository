@@ -184,6 +184,42 @@ main #repo #python-html .flex .more:hover {
     text-decoration-thickness: 2px;
 }
 
+/*----about me----*/
+main #aboutme {
+    padding: 0 10% 5%;
+    width: 80%;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main #aboutme #title {
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+main #aboutme #title h1 {
+    font-size: 2rem;
+}
+
+main #aboutme .grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+main #aboutme .grid img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+main #aboutme .grid .flex {
+    justify-content: center;
+    align-items: center;
+}
+
+main #aboutme p {
+    text-align: justify;
+}
+
 /*----Form----*/
 main #form {
     padding: 0 10% 5%;

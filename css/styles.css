@@ -195,6 +195,7 @@ main #aboutme {
 main #aboutme #title {
     justify-content: center;
     padding-bottom: 3%;
+    text-align: center;
 }
 
 main #aboutme #title h1 {
@@ -322,6 +323,11 @@ footer #me {
     main #profile #profile-information {
         gap: 20px;
         align-items: center;
+    }
+
+    main #aboutme .grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 }
 

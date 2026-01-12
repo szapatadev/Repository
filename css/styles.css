@@ -46,7 +46,7 @@ body {
     width: 50px;
 }
 
-.hide, .hide-html {
+.hide, .hide-html, .hide-js {
     display: none;
 }
 
